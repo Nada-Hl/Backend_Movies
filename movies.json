@@ -1,0 +1,428 @@
+[
+  {
+    "movie_id": 1,
+    "category_id":1,
+    "category_name": "Science-Fiction",
+    "movie_name": "Inception",
+    "realisateur": "Christopher Nolan",
+    "poster":"https://image.tmdb.org/t/p/original/aej3LRUga5rhgkmRP6XMFw3ejbl.jpg",
+    "synopsis":
+      "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into a CEO's mind.",
+    "date_de_realisation": "2010-06-01",
+    "date_de_sortie": "2010-07-16",
+    "liste_acteurs_principales": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ]
+  },
+  {
+    "movie_id": 2,
+    "category_id":1,
+    "category_name": "Science-Fiction",
+    "movie_name": "The Matrix",
+    "realisateur":
+      "Lana Wachowski, Lilly Wachowski",
+    "poster":"https://image.tmdb.org/t/p/original/bHzMbdVnpOpEDXfrNF77opAWSfF.jpg",
+    "synopsis":
+      "A hacker discovers the nature of reality and his role in the war against its controllers.",
+    "date_de_realisation": "1999-03-01",
+    "date_de_sortie": "1999-03-31",
+    "liste_acteurs_principales": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ]
+  },
+  {
+    "movie_id": 3,
+    "category_id":1,
+    "category_name": "Science-Fiction",
+    "movie_name": "Interstellar",
+    "realisateur": "Christopher Nolan",
+    "poster":"https://image.tmdb.org/t/p/original/1pnigkWWy8W032o9TKDneBa3eVK.jpg",
+    "synopsis":
+      "A team of explorers travel through a wormhole in space to ensure humanity's survival.",
+    "date_de_realisation": "2014-11-01",
+    "date_de_sortie": "2014-11-07",
+    "liste_acteurs_principales": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ]
+  },
+  {
+    "movie_id": 4,
+    "category_id":1,
+    "category_name": "Science-Fiction",
+    "movie_name": "Blade Runner 2049",
+    "realisateur": "Denis Villeneuve",
+    "poster":"https://image.tmdb.org/t/p/original/qWD9E0Wgn8w6nMMutCNFAUiSHrX.jpg",
+    "synopsis":
+      "A young blade runner discovers a long-buried secret that could plunge what's left of society into chaos.",
+    "date_de_realisation": "2017-01-01",
+    "date_de_sortie": "2017-10-06",
+    "liste_acteurs_principales": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas"
+    ]
+  },
+  {
+    "movie_id": 5,
+    "category_id":1,
+    "category_name": "Science-Fiction",
+    "movie_name": "Avatar",
+    "realisateur": "James Cameron",
+    "poster":"https://image.tmdb.org/t/p/original/q05XsJogO97Dhszou13yELuUcOo.jpg",
+    "synopsis":
+      "A paraplegic Marine is dispatched to the moon Pandora on a unique mission, becoming torn between following orders and protecting an alien civilization.",
+    "date_de_realisation": "2009-12-01",
+    "date_de_sortie": "2009-12-18",
+    "liste_acteurs_principales": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
+    ]
+  },
+  {
+    "movie_id": 6,
+    "category_id":2,
+    "category_name": "Humour",
+    "movie_name": "The Hangover",
+    "realisateur": "Todd Phillips",
+    "poster":"https://image.tmdb.org/t/p/original/dGOwVbGN5eJlgAnFwGRaANnyZMF.jpg",
+    "synopsis":
+      "Three friends wake up after a bachelor party in Las Vegas with no memory of the previous night and the bachelor missing.",
+    "date_de_realisation": "2009-05-01",
+    "date_de_sortie": "2009-06-05",
+    "liste_acteurs_principales": [
+      "Bradley Cooper",
+      "Ed Helms",
+      "Zach Galifianakis"
+    ]
+  },
+  {
+    "movie_id": 7,
+    "category_id":2,
+    "category_name": "Humour",
+    "movie_name": "Superbad",
+    "realisateur": "Greg Mottola",
+    "poster":"https://image.tmdb.org/t/p/original/utqCnOBNRpuEgMSI596cPfhUYjY.jpg",
+    "synopsis":
+      "Two high school friends try to enjoy their remaining time before graduation, facing awkward situations and hilarious misadventures.",
+    "date_de_realisation": "2007-04-01",
+    "date_de_sortie": "2007-08-17",
+    "liste_acteurs_principales": [
+      "Jonah Hill",
+      "Michael Cera",
+      "Christopher Mintz-Plasse"
+    ]
+  },
+  {
+    "movie_id": 8,
+    "category_id":2,
+    "category_name": "Humour",
+    "movie_name": "Dumb and Dumber",
+    "realisateur": "Peter Farrelly, Bobby Farrelly",
+    "poster":"https://image.tmdb.org/t/p/original/cLHVGuK1iXeJzNKtHUibfnNeUIH.jpg",
+    "synopsis":
+      "Two incredibly stupid friends embark on a cross-country road trip to return a briefcase full of money.",
+    "date_de_realisation": "1994-01-01",
+    "date_de_sortie": "1994-12-16",
+    "liste_acteurs_principales": [
+      "Jim Carrey",
+      "Jeff Daniels",
+      "Lauren Holly"
+    ]
+  },
+  {
+    "movie_id": 9,
+    "category_id":2,
+    "category_name": "Humour",
+    "movie_name": "The Mask",
+    "realisateur": "Chuck Russell",
+    "poster":"https://image.tmdb.org/t/p/original/5OBK9sksRSyrwrcMtxpdxql75Sw.jpg",
+    "synopsis":
+      "A timid bank clerk transforms into a manic superhero when he discovers a magical mask.",
+    "date_de_realisation": "1994-01-01",
+    "date_de_sortie": "1994-07-29",
+    "liste_acteurs_principales": [
+      "Jim Carrey",
+      "Cameron Diaz",
+      "Peter Riegert"
+    ]
+  },
+  {
+    "movie_id": 10,
+    "category_id":2,
+    "category_name": "Humour",
+    "movie_name": "Bridesmaids",
+    "realisateur": "Paul Feig",
+    "poster":"https://image.tmdb.org/t/p/original/gXH6ADCdYVDmLChIsh47WU6L4Cc.jpg",
+    "synopsis":
+      "Competition between the maid of honor and a bridesmaid over who is the bride's best friend leads to hilarious disasters.",
+    "date_de_realisation": "2011-01-01",
+    "date_de_sortie": "2011-05-13",
+    "liste_acteurs_principales": [
+      "Kristen Wiig",
+      "Maya Rudolph",
+      "Rose Byrne"
+    ]
+  },
+  {
+    "movie_id": 11,
+    "category_id":3,
+    "category_name": "Amour",
+    "movie_name": "The Notebook",
+    "realisateur": "Nick Cassavetes",
+    "poster":"https://image.tmdb.org/t/p/original/sP5f85ziKthDrAyXOwoBlnpPmNv.jpg",
+    "synopsis":
+      "A young couple falls in love in the 1940s but are separated by social differences and family opposition.",
+    "date_de_realisation": "2004-06-01",
+    "date_de_sortie": "2004-06-25",
+    "liste_acteurs_principales": [
+      "Ryan Gosling",
+      "Rachel McAdams",
+      "James Garner"
+    ]
+  },
+  {
+    "movie_id": 12,
+    "category_id":3,
+    "category_name": "Amour",
+    "movie_name": "Titanic",
+    "realisateur": "James Cameron",
+    "poster":"https://image.tmdb.org/t/p/original/vpsvHLkoeKUjceIMeNSqCp3xEyY.jpg",
+    "synopsis":
+      "A romance blossoms between a poor artist and a rich woman aboard the ill-fated RMS Titanic.",
+    "date_de_realisation": "1997-07-01",
+    "date_de_sortie": "1997-12-19",
+    "liste_acteurs_principales": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
+    ]
+  },
+  {
+    "movie_id": 13,
+    "category_id":3,
+    "category_name": "Amour",
+    "movie_name": "La La Land",
+    "realisateur": "Damien Chazelle",
+    "poster":"https://image.tmdb.org/t/p/original/mN3X0Sm3qaW8JjnK8hFzVvWBMz8.jpg",
+    "synopsis":
+      "A jazz musician and an aspiring actress pursue their dreams while navigating love in Los Angeles.",
+    "date_de_realisation": "2016-08-01",
+    "date_de_sortie": "2016-12-09",
+    "liste_acteurs_principales": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend"
+    ]
+  },
+  {
+    "movie_id": 14,
+    "category_id":3,
+    "category_name": "Amour",
+    "movie_name": "Pride & Prejudice",
+    "realisateur": "Joe Wright",
+    "poster":"https://image.tmdb.org/t/p/original/dn2tyLAx5syITEQ9989iQ79eMNW.jpg",
+    "synopsis":
+      "Elizabeth Bennet navigates issues of manners, upbringing, and morality in 19th-century England while falling in love with Mr. Darcy.",
+    "date_de_realisation": "2005-01-01",
+    "date_de_sortie": "2005-11-11",
+    "liste_acteurs_principales": [
+      "Keira Knightley",
+      "Matthew Macfadyen",
+      "Brenda Blethyn"
+    ]
+  },
+  {
+    "movie_id": 15,
+    "category_id":3,
+    "category_name": "Amour",
+    "movie_name": "A Star is Born",
+    "realisateur": "Bradley Cooper",
+    "poster":"https://image.tmdb.org/t/p/original/uoq8DobPxciPEJ5EuBeqDt8av76.jpg",
+    "synopsis":
+      "A seasoned musician helps a young singer find fame while struggling with his own personal demons.",
+    "date_de_realisation": "2018-06-01",
+    "date_de_sortie": "2018-10-05",
+    "liste_acteurs_principales": [
+      "Bradley Cooper",
+      "Lady Gaga",
+      "Sam Elliott"
+    ]
+  },
+  {
+    "movie_id": 16,
+    "category_id":4,
+    "category_name": "Horror",
+    "movie_name": "The Conjuring",
+    "realisateur": "James Wan",
+    "poster":"https://image.tmdb.org/t/p/original/vOnTvcSsxdJWL9xgauljHHmFSN4.jpg",
+    "synopsis":
+      "Paranormal investigators help a family terrorized by a dark presence in their farmhouse.",
+    "date_de_realisation": "2013-01-01",
+    "date_de_sortie": "2013-07-19",
+    "liste_acteurs_principales": [
+      "Vera Farmiga",
+      "Patrick Wilson",
+      "Lili Taylor"
+    ]
+  },
+  {
+    "movie_id": 17,
+    "category_id":4,
+    "category_name": "Horror",
+    "movie_name": "It",
+    "realisateur": "Andy Muschietti",
+    "poster":"https://image.tmdb.org/t/p/original/m65RC0QMvLSpPYqm7p85g3ewGUJ.jpg",
+    "synopsis":
+      "A group of children face their fears when a shape-shifting clown terrorizes their town.",
+    "date_de_realisation": "2017-01-01",
+    "date_de_sortie": "2017-09-08",
+    "liste_acteurs_principales": [
+      "Bill Skarsgård",
+      "Jaeden Martell",
+      "Finn Wolfhard"
+    ]
+  },
+  {
+    "movie_id": 18,
+    "category_id":4,
+    "category_name": "Horror",
+    "movie_name": "A Quiet Place",
+    "realisateur": "John Krasinski",
+    "poster":"https://image.tmdb.org/t/p/original/S3PKmsBviNmXDYmik7uanIqpzD.jpg",
+    "synopsis":
+      "In a post-apocalyptic world, a family must remain silent to survive creatures that hunt by sound.",
+    "date_de_realisation": "2018-01-01",
+    "date_de_sortie": "2018-04-06",
+    "liste_acteurs_principales": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds"
+    ]
+  },
+  {
+    "movie_id": 19,
+    "category_id":4,
+    "category_name": "Horror",
+    "movie_name": "The Shining",
+    "realisateur": "Stanley Kubrick",
+    "poster":"https://image.tmdb.org/t/p/original/oK83kjwZw3KwPBlJiGaAmlZbJ9L.jpg",
+    "synopsis":
+      "A family heads to an isolated hotel where an evil presence influences the father into violence.",
+    "date_de_realisation": "1980-01-01",
+    "date_de_sortie": "1980-05-23",
+    "liste_acteurs_principales": [
+      "Jack Nicholson",
+      "Shelley Duvall",
+      "Danny Lloyd"
+    ]
+  },
+  {
+    "movie_id": 20,
+    "category_id":4,
+    "category_name": "Horror",
+    "movie_name": "Get Out",
+    "realisateur": "Jordan Peele",
+    "poster":"https://image.tmdb.org/t/p/original/8WzjAhgc4HvpN3Y6LLCc6AbpIhF.jpg",
+    "synopsis":
+      "A young African-American man visits his white girlfriend's family estate, uncovering disturbing secrets.",
+    "date_de_realisation": "2017-01-01",
+    "date_de_sortie": "2017-02-24",
+    "liste_acteurs_principales": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford"
+    ]
+  },
+  {
+    "movie_id": 21,
+    "category_id":5,
+    "category_name": "Action",
+    "movie_name": "Mad Max: Fury Road",
+    "realisateur": "George Miller",
+    "poster":"https://image.tmdb.org/t/p/original/oLy2V6AWSEfdPgKOtrSGnwB3Q2R.jpg",
+    "synopsis":
+      "In a post-apocalyptic wasteland, Max teams up with Furiosa to flee a tyrannical warlord.",
+    "date_de_realisation": "2015-01-01",
+    "date_de_sortie": "2015-05-15",
+    "liste_acteurs_principales": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+    ]
+  },
+  {
+    "movie_id": 22,
+    "category_id":5,
+    "category_name": "Action",
+    "movie_name": "Gladiator",
+    "realisateur": "Ridley Scott",
+    "poster":"https://image.tmdb.org/t/p/original/3fDI4D5rWefyUs7kLcvyafwBEmZ.jpg",
+    "synopsis":
+      "A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family.",
+    "date_de_realisation": "2000-01-01",
+    "date_de_sortie": "2000-05-05",
+    "liste_acteurs_principales": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ]
+  },
+  {
+    "movie_id": 23,
+    "category_id":5,
+    "category_name": "Action",
+    "movie_name": "John Wick",
+    "realisateur": "Chad Stahelski",
+    "poster":"https://image.tmdb.org/t/p/original/uU6nuIGxN7LahoSrP2DKXwgDKSi.jpg",
+    "synopsis":
+      "An ex-hitman comes out of retirement to track down the gangsters who killed his dog and stole his car.",
+    "date_de_realisation": "2014-01-01",
+    "date_de_sortie": "2014-10-24",
+    "liste_acteurs_principales": [
+      "Keanu Reeves",
+      "Michael Nyqvist",
+      "Alfie Allen"
+    ]
+  },
+  {
+    "movie_id": 24,
+    "category_id":5,
+    "category_name": "Action",
+    "movie_name": "The Dark Knight",
+    "realisateur": "Christopher Nolan",
+    "poster":"https://image.tmdb.org/t/p/original/pyNXnq8QBWoK3b37RS6C3axwUOy.jpg",
+    "synopsis":
+      "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham into chaos.",
+    "date_de_realisation": "2008-01-01",
+    "date_de_sortie": "2008-07-18",
+    "liste_acteurs_principales": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ]
+  },
+  {
+    "movie_id": 25,
+    "category_id":5,
+    "category_name": "Action",
+    "movie_name": "Avengers: Endgame",
+    "realisateur": "Anthony Russo, Joe Russo",
+    "poster":"https://image.tmdb.org/t/p/original/wF7jv3x51hXgkl7t5KHePuRjXc8.jpg",
+    "synopsis":
+      "The Avengers assemble once more to reverse the damage caused by Thanos and restore balance to the universe.",
+    "date_de_realisation": "2018-01-01",
+    "date_de_sortie": "2019-04-26",
+    "liste_acteurs_principales": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson"
+    ]
+  }
+]
