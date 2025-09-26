@@ -24,7 +24,7 @@ public class MovieServices {
             String categoryName = d.getString("category_name");
             String movieName = d.getString("movie_name");
             String realisateur = d.getString("realisateur");
-            String poster = d.getString("realisateur");
+            String poster = d.getString("poster");
             String dateReal = d.getString("date_de_realisation");
             String dateSortie = d.getString("date_de_sortie");
             String synopsis = d.getString("synopsis");
