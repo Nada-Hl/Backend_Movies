@@ -38,5 +38,34 @@ public class MovieServices {
         return list;
     }
 
+    // Adding or creating a movies with all possible values
+    public Movie createMovie(Movie m) {
+        //Getting the movies category name and category id and checking if it exists
+        int categoryId = m.getCategoryId();
+        String categoryName = m.getCategoryName();
+
+        if ((categoryId == 0) && (categoryName == null || categoryName.isBlank())) {
+            throw new IllegalArgumentException("You must provide category_id or category_name");
+        }
+        // get next movie id from the counters database
+        int newMovieId = CounterServices.getNextSequence("movie_id");
+
+        Document doc = new Document("movie_id", newMovieId)
+                .append("category_id", categoryId)
+                .append("category_name", categoryName)
+                .append("movie_name", m.getMovieName())
+                .append("realisateur", m.getRealisateur())
+                .append("poster", m.getPoster())
+                .append("date_de_realisation", m.getDateRealisation())
+                .append("date_de_sortie", m.getDateSortie())
+                .append("synopsis", m.getSynopsis())
+                .append("liste_acteurs_principales", m.getListeActeurs());
+
+        movieCollection.insertOne(doc);
+
+        m.setMovieId(newMovieId);
+        return m;
+    }
+
     
 }
