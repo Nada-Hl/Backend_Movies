@@ -3,6 +3,7 @@ package com.monprojet.services;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
+import com.mongodb.client.result.DeleteResult;
 import com.monprojet.db.MongoDBConnection;
 import com.monprojet.models.Category;
 import org.bson.Document;
@@ -13,7 +14,7 @@ import java.util.List;
 public class CategoryServices {
     private final MongoDatabase db = MongoDBConnection.getDatabase();
     private final MongoCollection<Document> categoryCollection = db.getCollection("categories");
-
+    private final MongoCollection<Document> movieCollection = db.getCollection("movies");
     // Find a specific category using it's name
     public Category findByName(String name) {
         Document d = categoryCollection.find(Filters.eq("category_name", name)).first();
@@ -44,5 +45,11 @@ public class CategoryServices {
         categoryCollection.insertOne(doc);
         return new Category(newId, name);
     }
-    
+    // Deleting categry by ID
+    public boolean deleteCategory(int categoryId) {
+        movieCollection.deleteMany(Filters.eq("category_id", categoryId));
+        DeleteResult result = categoryCollection.deleteOne(Filters.eq("category_id", categoryId));
+        long a=result.getDeletedCount();
+        return a>0;
+    }
 }

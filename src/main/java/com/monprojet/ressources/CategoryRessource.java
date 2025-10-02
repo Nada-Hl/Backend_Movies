@@ -25,5 +25,13 @@ public class CategoryRessource {
         Category created = service.createCategory(category.getCategoryName());
         return Response.status(Response.Status.CREATED).entity(created).build();
     }
+
+    @DELETE
+    public Response delete(int id) {
+        boolean ok = service.deleteCategory(id);
+        if (ok) return Response.ok("Deleted").build();
+        return Response.status(Response.Status.NOT_FOUND).entity("Category not found").build();
+    }
+
     
 }
