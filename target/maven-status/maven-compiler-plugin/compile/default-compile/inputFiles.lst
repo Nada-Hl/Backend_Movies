@@ -1,0 +1,14 @@
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\App.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\db\MongoDBConnection.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\models\Category.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\models\Movie.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\models\User.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\models\Watchlist.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\ressources\CategoryRessource.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\ressources\MovieRessource.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\ressources\WatchlistRessource.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\services\CategoryServices.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\services\CounterServices.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\services\MovieServices.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\services\ReviewServices.java
+C:\Users\LENOVO\Desktop\AI\Backend_Movies\src\main\java\com\monprojet\services\WatchListServices.java

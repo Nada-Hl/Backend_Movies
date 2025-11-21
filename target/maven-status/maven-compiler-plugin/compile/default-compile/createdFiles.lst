@@ -1,0 +1,14 @@
+com\monprojet\App.class
+com\monprojet\models\Category.class
+com\monprojet\models\Watchlist.class
+com\monprojet\models\Movie.class
+com\monprojet\services\CategoryServices.class
+com\monprojet\ressources\CategoryRessource.class
+com\monprojet\ressources\WatchlistRessource.class
+com\monprojet\services\WatchListServices.class
+com\monprojet\models\User.class
+com\monprojet\db\MongoDBConnection.class
+com\monprojet\services\MovieServices.class
+com\monprojet\services\CounterServices.class
+com\monprojet\ressources\MovieRessource.class
+com\monprojet\services\ReviewServices.class
